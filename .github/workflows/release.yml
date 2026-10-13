@@ -39,6 +39,8 @@ jobs:
       - name: Release
         uses: cycjimmy/semantic-release-action@v6
         id: release
+        # semantic-release errors when neither main nor dev exists yet; keep going so the build still runs.
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
