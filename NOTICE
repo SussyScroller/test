@@ -1,0 +1,38 @@
+Morphe NOTICE
+=============
+
+7c. Project Name Restriction
+----------------------------
+
+This license does not grant permission to use the name "Morphe", or any
+name, logo, or branding that is confusingly similar, as the name or
+primary identifying mark of any modified version, fork, or derivative work.
+
+Any redistribution or derivative work must adopt a distinct name and
+branding that clearly differentiates it from the Morphe project and does
+not cause confusion as to source or origin.
+
+References to Morphe are permitted solely for descriptive compatibility
+purposes (e.g., "compatible with Morphe" or "XYZ patches for use with Morphe"),
+provided that such references:
+
+- Are accurate, factual, and non-misleading;
+- Do not suggest authorship by the Morphe project; and
+- Appear only in a secondary or descriptive context, not as part of the product or project name.
+
+
+Attribution
+-----------
+
+The "Enable RedGifs audio" patch in this repository was written by DarkGooner
+(https://github.com/DarkGooner) in https://github.com/DarkGooner/morphe-patches,
+release v1.47.9 (commits 8703c7d8f through 547e06151), which is a fork of
+https://github.com/MorpheApp/morphe-patches and licensed under GPLv3 with the
+Section 7 terms above.
+
+SussyScroller modified it on 2026-10-13 to work as a standalone patch source: the
+dependency on the official settings patch and the settings toggle were removed, and
+the extension no longer uses the Morphe shared extension. Each modified file says so
+in its header.
+
+The project structure is based on https://github.com/MorpheApp/morphe-patches-template.
